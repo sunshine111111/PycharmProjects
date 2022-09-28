@@ -4,6 +4,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn import datasets
 from sklearn.decomposition import PCA
 
+####iris数据集特征提取，并展示
 # 获取鸢尾花的数据，有四个特征量
 iris = datasets.load_iris()
 #以表格形式查看数据

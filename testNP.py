@@ -43,3 +43,4 @@ print(x)
 x_float = x.astype('float32')
 print('x_float.dtype.name',x_float.dtype.name)
 print(x_float)
+

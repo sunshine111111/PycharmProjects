@@ -3,7 +3,7 @@ import numpy as np
 import sklearn.datasets as datasets
 import matplotlib.pyplot as plt
 
-###对鸢尾花的前两个特征量，通过svm方法进行学习
+###对鸢尾花数据的前两个特征量，通过svm算法进行学习，得出模型
 iris = datasets.load_iris()
 first_two_features = iris.data[:,[0,1]]
 #print("1####"+str(first_two_features))

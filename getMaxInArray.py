@@ -1,4 +1,4 @@
-#分治算法实现（参考网址：http://c.biancheng.net/algorithm/divide-and-conquer.html）
+#分治算法实现
 def get_max(arr,left,right):
     #列表中没有数据
     if len(arr) == 0:

@@ -55,3 +55,4 @@ print(thresh)
 plt.subplot(212)
 plt.imshow(thresh)
 plt.show()
+

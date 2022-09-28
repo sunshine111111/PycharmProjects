@@ -15,7 +15,6 @@ while True:
     cost[p1 - 1][p2 - 1] = wight
     cost[p2 - 1][p1 - 1] = wight
 
-
 # 查找权值最小的、尚未被选择的顶点，key 列表记录了各顶点之间的权值数据，visited列表记录着各个顶点是否已经被选择的信息
 def min_Key(key, visited):
     # 遍历 key 列表使用，min 记录最小的权值，min_index 记录最小权值关联的顶点

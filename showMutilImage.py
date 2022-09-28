@@ -3,6 +3,7 @@ import cv2
 import matplotlib.pyplot as plt
 import diluteImage as imageData
 
+#稀释后的图像数据，多图片展示
 #设置列数
 NUM_COLUMNS = 4
 #载入图像

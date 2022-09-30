@@ -13,7 +13,7 @@ def make_image(input_img):
     mat1 = cv2.getRotationMatrix2D(tuple(np.array(input_img.shape[:2])/2),23,1)
     mat2 = cv2.getRotationMatrix2D(tuple(np.array(input_img.shape[:2])/2),144,0.8)
 
-    #用于填充方法的函数
+    #用于填充方法的函数->lambda 参数：函数
     fake_method_array=np.array([
         lambda image: cv2.warpAffine(image,mat1,image.shape[:2]),
         lambda image: cv2.warpAffine(image,mat2,image.shape[:2]),

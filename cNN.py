@@ -12,9 +12,9 @@ class CNN(nn.Module):
         self.pool = nn.MaxPool2d(2,2)
         self.conv2 = nn.Conv2d(6,16,5)
         #定义输入层、中间层、输出层
-        self.layer1 = nn.linear(16*5*5,120)
-        self.layer2 = nn.linear(120,84)
-        self.layer3 = nn.linear(84,10)
+        self.layer1 = nn.Linear(16*5*5,120)
+        self.layer2 = nn.Linear(120,84)
+        self.layer3 = nn.Linear(84,10)
 
     def forward(self,input_data):
         #F.relu：使用ReLU激活函数
